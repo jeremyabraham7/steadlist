@@ -1,0 +1,748 @@
+[
+   {
+      "label":"🛠 Development",
+      "value":"Development",
+      "id":"288",
+      "subcats":[
+         {
+            "label":"Web Development",
+            "value":"Web Development",
+            "id":"8"
+         },
+         {
+            "label":"Data Science",
+            "value":"Data Science",
+            "id":"558"
+         },
+         {
+            "label":"Mobile Development",
+            "value":"Mobile Development",
+            "id":"10"
+         },
+         {
+            "label":"Programming Languages",
+            "value":"Programming Languages",
+            "id":"12"
+         },
+         {
+            "label":"Game Development",
+            "value":"Game Development",
+            "id":"14"
+         },
+         {
+            "label":"Database Design & Development",
+            "value":"Database Design & Development",
+            "id":"16"
+         },
+         {
+            "label":"Software Testing",
+            "value":"Software Testing",
+            "id":"18"
+         },
+         {
+            "label":"Software Engineering",
+            "value":"Software Engineering",
+            "id":"20"
+         },
+         {
+            "label":"Software Development Tools",
+            "value":"Software Development Tools",
+            "id":"362"
+         },
+         {
+            "label":"No-Code Development",
+            "value":"No-Code Development",
+            "id":"575"
+         }
+      ]
+   },
+   {
+      "label":"💼 Business",
+      "value":"Business",
+      "id":"268",
+      "subcats":[
+         {
+            "label":"Entrepreneurship",
+            "value":"Entrepreneurship",
+            "id":"26"
+         },
+         {
+            "label":"Communication",
+            "value":"Communication",
+            "id":"28"
+         },
+         {
+            "label":"Management",
+            "value":"Management",
+            "id":"30"
+         },
+         {
+            "label":"Sales",
+            "value":"Sales",
+            "id":"32"
+         },
+         {
+            "label":"Business Strategy",
+            "value":"Business Strategy",
+            "id":"34"
+         },
+         {
+            "label":"Operations",
+            "value":"Operations",
+            "id":"36"
+         },
+         {
+            "label":"Project Management",
+            "value":"Project Management",
+            "id":"38"
+         },
+         {
+            "label":"Business Law",
+            "value":"Business Law",
+            "id":"40"
+         },
+         {
+            "label":"Business Analytics & Intelligence",
+            "value":"Business Analytics & Intelligence",
+            "id":"44"
+         },
+         {
+            "label":"Human Resources",
+            "value":"Human Resources",
+            "id":"48"
+         },
+         {
+            "label":"Industry",
+            "value":"Industry",
+            "id":"50"
+         },
+         {
+            "label":"E-Commerce",
+            "value":"E-Commerce",
+            "id":"354"
+         },
+         {
+            "label":"Media",
+            "value":"Media",
+            "id":"52"
+         },
+         {
+            "label":"Real Estate",
+            "value":"Real Estate",
+            "id":"58"
+         },
+         {
+            "label":"Other Business",
+            "value":"Other Business",
+            "id":"60"
+         }
+      ]
+   },
+   {
+      "label":"🏦 Finance & Accounting",
+      "value":"Finance & Accounting",
+      "id":"328",
+      "subcats":[
+         {
+            "label":"Accounting & Bookkeeping",
+            "value":"Accounting & Bookkeeping",
+            "id":"530"
+         },
+         {
+            "label":"Compliance",
+            "value":"Compliance",
+            "id":"532"
+         },
+         {
+            "label":"Cryptocurrency & Blockchain",
+            "value":"Cryptocurrency & Blockchain",
+            "id":"534"
+         },
+         {
+            "label":"Economics",
+            "value":"Economics",
+            "id":"536"
+         },
+         {
+            "label":"Finance",
+            "value":"Finance",
+            "id":"540"
+         },
+         {
+            "label":"Finance Cert & Exam Prep",
+            "value":"Finance Cert & Exam Prep",
+            "id":"542"
+         },
+         {
+            "label":"Financial Modeling & Analysis",
+            "value":"Financial Modeling & Analysis",
+            "id":"544"
+         },
+         {
+            "label":"Investing & Trading",
+            "value":"Investing & Trading",
+            "id":"546"
+         },
+         {
+            "label":"Money Management Tools",
+            "value":"Money Management Tools",
+            "id":"548"
+         },
+         {
+            "label":"Taxes",
+            "value":"Taxes",
+            "id":"550"
+         },
+         {
+            "label":"Other Finance & Accounting",
+            "value":"Other Finance & Accounting",
+            "id":"552"
+         }
+      ]
+   },
+   {
+      "label":"🧑‍💻 IT & Software",
+      "value":"IT & Software",
+      "id":"294",
+      "subcats":[
+         {
+            "label":"IT Certifications",
+            "value":"IT Certifications",
+            "id":"132"
+         },
+         {
+            "label":"Network & Security",
+            "value":"Network & Security",
+            "id":"134"
+         },
+         {
+            "label":"Hardware",
+            "value":"Hardware",
+            "id":"136"
+         },
+         {
+            "label":"Operating Systems & Servers",
+            "value":"Operating Systems & Servers",
+            "id":"138"
+         },
+         {
+            "label":"Other IT & Software",
+            "value":"Other IT & Software",
+            "id":"140"
+         }
+      ]
+   },
+   {
+      "label":"📝 Office Productivity",
+      "value":"Office Productivity",
+      "id":"292",
+      "subcats":[
+         {
+            "label":"Microsoft",
+            "value":"Microsoft",
+            "id":"96"
+         },
+         {
+            "label":"Apple",
+            "value":"Apple",
+            "id":"98"
+         },
+         {
+            "label":"Google",
+            "value":"Google",
+            "id":"100"
+         },
+         {
+            "label":"SAP",
+            "value":"SAP",
+            "id":"102"
+         },
+         {
+            "label":"Oracle",
+            "value":"Oracle",
+            "id":"106"
+         },
+         {
+            "label":"Other Office Productivity",
+            "value":"Other Office Productivity",
+            "id":"108"
+         }
+      ]
+   },
+   {
+      "label":"✌️ Personal Development",
+      "value":"Personal Development",
+      "id":"296",
+      "subcats":[
+         {
+            "label":"Personal Transformation",
+            "value":"Personal Transformation",
+            "id":"142"
+         },
+         {
+            "label":"Personal Productivity",
+            "value":"Personal Productivity",
+            "id":"144"
+         },
+         {
+            "label":"Leadership",
+            "value":"Leadership",
+            "id":"146"
+         },
+         {
+            "label":"Career Development",
+            "value":"Career Development",
+            "id":"150"
+         },
+         {
+            "label":"Parenting & Relationships",
+            "value":"Parenting & Relationships",
+            "id":"152"
+         },
+         {
+            "label":"Happiness",
+            "value":"Happiness",
+            "id":"156"
+         },
+         {
+            "label":"Esoteric Practices",
+            "value":"Esoteric Practices",
+            "id":"577"
+         },
+         {
+            "label":"Religion & Spirituality",
+            "value":"Religion & Spirituality",
+            "id":"158"
+         },
+         {
+            "label":"Personal Brand Building",
+            "value":"Personal Brand Building",
+            "id":"160"
+         },
+         {
+            "label":"Creativity",
+            "value":"Creativity",
+            "id":"164"
+         },
+         {
+            "label":"Influence",
+            "value":"Influence",
+            "id":"166"
+         },
+         {
+            "label":"Self Esteem & Confidence",
+            "value":"Self Esteem & Confidence",
+            "id":"168"
+         },
+         {
+            "label":"Stress Management",
+            "value":"Stress Management",
+            "id":"170"
+         },
+         {
+            "label":"Memory & Study Skills",
+            "value":"Memory & Study Skills",
+            "id":"172"
+         },
+         {
+            "label":"Motivation",
+            "value":"Motivation",
+            "id":"176"
+         },
+         {
+            "label":"Other Personal Development",
+            "value":"Other Personal Development",
+            "id":"178"
+         }
+      ]
+   },
+   {
+      "label":"🎨 Design",
+      "value":"Design",
+      "id":"269",
+      "subcats":[
+         {
+            "label":"Web Design",
+            "value":"Web Design",
+            "id":"6"
+         },
+         {
+            "label":"Graphic Design & Illustration",
+            "value":"Graphic Design & Illustration",
+            "id":"110"
+         },
+         {
+            "label":"Design Tools",
+            "value":"Design Tools",
+            "id":"112"
+         },
+         {
+            "label":"User Experience Design",
+            "value":"User Experience Design",
+            "id":"114"
+         },
+         {
+            "label":"Game Design",
+            "value":"Game Design",
+            "id":"116"
+         },
+         {
+            "label":"3D & Animation",
+            "value":"3D & Animation",
+            "id":"120"
+         },
+         {
+            "label":"Fashion Design",
+            "value":"Fashion Design",
+            "id":"122"
+         },
+         {
+            "label":"Architectural Design",
+            "value":"Architectural Design",
+            "id":"124"
+         },
+         {
+            "label":"Interior Design",
+            "value":"Interior Design",
+            "id":"128"
+         },
+         {
+            "label":"Other Design",
+            "value":"Other Design",
+            "id":"130"
+         }
+      ]
+   },
+   {
+      "label":"🎉 Marketing",
+      "value":"Marketing",
+      "id":"290",
+      "subcats":[
+         {
+            "label":"Digital Marketing",
+            "value":"Digital Marketing",
+            "id":"62"
+         },
+         {
+            "label":"Search Engine Optimization",
+            "value":"Search Engine Optimization",
+            "id":"64"
+         },
+         {
+            "label":"Social Media Marketing",
+            "value":"Social Media Marketing",
+            "id":"66"
+         },
+         {
+            "label":"Branding",
+            "value":"Branding",
+            "id":"68"
+         },
+         {
+            "label":"Marketing Fundamentals",
+            "value":"Marketing Fundamentals",
+            "id":"70"
+         },
+         {
+            "label":"Marketing Analytics & Automation",
+            "value":"Marketing Analytics & Automation",
+            "id":"72"
+         },
+         {
+            "label":"Public Relations",
+            "value":"Public Relations",
+            "id":"74"
+         },
+         {
+            "label":"Paid Advertising",
+            "value":"Paid Advertising",
+            "id":"76"
+         },
+         {
+            "label":"Video & Mobile Marketing",
+            "value":"Video & Mobile Marketing",
+            "id":"78"
+         },
+         {
+            "label":"Content Marketing",
+            "value":"Content Marketing",
+            "id":"80"
+         },
+         {
+            "label":"Growth Hacking",
+            "value":"Growth Hacking",
+            "id":"86"
+         },
+         {
+            "label":"Affiliate Marketing",
+            "value":"Affiliate Marketing",
+            "id":"88"
+         },
+         {
+            "label":"Product Marketing",
+            "value":"Product Marketing",
+            "id":"90"
+         },
+         {
+            "label":"Other Marketing",
+            "value":"Other Marketing",
+            "id":"94"
+         }
+      ]
+   },
+   {
+      "label":"☕️ Lifestyle",
+      "value":"Lifestyle",
+      "id":"274",
+      "subcats":[
+         {
+            "label":"Arts & Crafts",
+            "value":"Arts & Crafts",
+            "id":"180"
+         },
+         {
+            "label":"Beauty & Makeup",
+            "value":"Beauty & Makeup",
+            "id":"184"
+         },
+         {
+            "label":"Esoteric Practices",
+            "value":"Esoteric Practices",
+            "id":"577"
+         },
+         {
+            "label":"Food & Beverage",
+            "value":"Food & Beverage",
+            "id":"182"
+         },
+         {
+            "label":"Gaming",
+            "value":"Gaming",
+            "id":"188"
+         },
+         {
+            "label":"Home Improvement & Gardening",
+            "value":"Home Improvement & Gardening",
+            "id":"190"
+         },
+         {
+            "label":"Pet Care & Training",
+            "value":"Pet Care & Training",
+            "id":"192"
+         },
+         {
+            "label":"Travel",
+            "value":"Travel",
+            "id":"186"
+         },
+         {
+            "label":"Other Lifestyle",
+            "value":"Other Lifestyle",
+            "id":"194"
+         }
+      ]
+   },
+   {
+      "label":"📸 Photography & Video",
+      "value":"Photography & Video",
+      "id":"273",
+      "subcats":[
+         {
+            "label":"Digital Photography",
+            "value":"Digital Photography",
+            "id":"370"
+         },
+         {
+            "label":"Photography",
+            "value":"Photography",
+            "id":"196"
+         },
+         {
+            "label":"Portrait Photography",
+            "value":"Portrait Photography",
+            "id":"204"
+         },
+         {
+            "label":"Photography Tools",
+            "value":"Photography Tools",
+            "id":"198"
+         },
+         {
+            "label":"Commercial Photography",
+            "value":"Commercial Photography",
+            "id":"208"
+         },
+         {
+            "label":"Video Design",
+            "value":"Video Design",
+            "id":"218"
+         },
+         {
+            "label":"Other Photography & Video",
+            "value":"Other Photography & Video",
+            "id":"220"
+         }
+      ]
+   },
+   {
+      "label":"🏋️ Health & Fitness",
+      "value":"Health & Fitness",
+      "id":"276",
+      "subcats":[
+         {
+            "label":"Fitness",
+            "value":"Fitness",
+            "id":"222"
+         },
+         {
+            "label":"General Health",
+            "value":"General Health",
+            "id":"224"
+         },
+         {
+            "label":"Sports",
+            "value":"Sports",
+            "id":"226"
+         },
+         {
+            "label":"Nutrition & Diet",
+            "value":"Nutrition & Diet",
+            "id":"228"
+         },
+         {
+            "label":"Yoga",
+            "value":"Yoga",
+            "id":"230"
+         },
+         {
+            "label":"Mental Health",
+            "value":"Mental Health",
+            "id":"232"
+         },
+         {
+            "label":"Martial Arts & Self Defense",
+            "value":"Martial Arts & Self Defense",
+            "id":"236"
+         },
+         {
+            "label":"Safety & First Aid",
+            "value":"Safety & First Aid",
+            "id":"238"
+         },
+         {
+            "label":"Dance",
+            "value":"Dance",
+            "id":"240"
+         },
+         {
+            "label":"Meditation",
+            "value":"Meditation",
+            "id":"242"
+         },
+         {
+            "label":"Other Health & Fitness",
+            "value":"Other Health & Fitness",
+            "id":"244"
+         }
+      ]
+   },
+   {
+      "label":"🎧 Music",
+      "value":"Music",
+      "id":"278",
+      "subcats":[
+         {
+             "label": "Instruments",
+             "value": "Instruments",
+             "id": "296"
+         },
+         {
+             "label": "Music Production",
+             "value": "Music Production",
+             "id": "298"
+         },
+         {
+             "label": "Music Fundamentals",
+             "value": "Music Fundamentals",
+             "id": "300"
+         },
+         {
+             "label": "Vocal",
+             "value": "Vocal",
+             "id": "302"
+         },
+         {
+             "label": "Music Techniques",
+             "value": "Music Techniques",
+             "id": "304"
+         },
+         {
+             "label": "Music Software",
+             "value": "Music Software",
+             "id": "306"
+         },
+         {
+             "label": "Other Music",
+             "value": "Other Music",
+             "id": "308"
+         }
+     ]
+   },
+   {
+      "label":"📚 Teaching & Academics",
+      "value":"Teaching & Academics",
+      "id":"300",
+      "subcats":[
+         {
+            "label":"Engineering",
+            "value":"Engineering",
+            "id":"366"
+         },
+         {
+            "label":"Humanities",
+            "value":"Humanities",
+            "id":"380"
+         },
+         {
+            "label":"Math",
+            "value":"Math",
+            "id":"310"
+         },
+         {
+            "label":"Science",
+            "value":"Science",
+            "id":"312"
+         },
+         {
+            "label":"Online Education",
+            "value":"Online Education",
+            "id":"523"
+         },
+         {
+            "label":"Social Science",
+            "value":"Social Science",
+            "id":"376"
+         },
+         {
+            "label":"Language Learning",
+            "value":"Language Learning",
+            "id":"521"
+         },
+         {
+            "label":"Teacher Training",
+            "value":"Teacher Training",
+            "id":"527"
+         },
+         {
+            "label":"Test Prep",
+            "value":"Test Prep",
+            "id":"529"
+         },
+         {
+            "label":"Other Teaching & Academics",
+            "value":"Other Teaching & Academics",
+            "id":"525"
+         }
+      ]
+   }
+]

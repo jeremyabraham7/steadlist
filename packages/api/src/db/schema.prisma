@@ -1,0 +1,95 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["filteredRelationCount"]
+}
+
+generator typegraphql {
+  provider = "typegraphql-prisma"
+  output   = "../../../../node_modules/@generated"
+  emitOnly = "inputs,enums,crudResolvers"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model User {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email     String?  @unique
+  /// @TypeGraphQL.omit(output: true)
+  password  String?
+  firstName String?
+  lastName  String?
+  // avatar    String?
+  role      Role     @default(USER)
+  votes     Vote[]
+  ideas     Idea[]
+  // bio       String?
+  createdAt DateTime @default(now()) @db.Timestamptz(6)
+  updatedAt DateTime @default(now()) @updatedAt @db.Timestamptz(6)
+}
+
+enum IdeaStatus {
+  DRAFT
+  PUBLISHED
+  BANNED
+}
+
+model Idea {
+  id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  text        String
+  status      IdeaStatus @default(DRAFT)
+  category    String
+  subcategory String
+  userInput   String?
+  prompt      String
+  modality    String
+  votes       Vote[]
+  user        User?      @relation(fields: [userId], references: [id])
+  userId      String?    @db.Uuid
+  createdAt   DateTime   @default(now()) @db.Timestamptz(6)
+  updatedAt   DateTime   @default(now()) @updatedAt @db.Timestamptz(6)
+}
+
+enum VoteType {
+  UP
+  DOWN
+  LUL
+}
+
+model Vote {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  idea      Idea     @relation(fields: [ideaId], references: [id])
+  ideaId    String   @db.Uuid
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String   @db.Uuid
+  type      VoteType
+  createdAt DateTime @default(now()) @db.Timestamptz(6)
+  updatedAt DateTime @default(now()) @updatedAt @db.Timestamptz(6)
+
+  @@unique(fields: [ideaId, userId], name: "userVoteId")
+}
+
+enum GPT3ModelStatus {
+  QUEUED
+  PENDING
+  RUNNING
+  SUCCEEDED
+  CANCELLED
+}
+
+model GPT3Model {
+  id          String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  tuneId      String          @unique
+  model       String?
+  status      GPT3ModelStatus @default(QUEUED)
+  succeededAt DateTime?       @db.Timestamptz(6) // enables us to compare date of idea creation to determine which model was used
+  createdAt   DateTime        @default(now()) @db.Timestamptz(6)
+  updatedAt   DateTime        @default(now()) @updatedAt @db.Timestamptz(6)
+}

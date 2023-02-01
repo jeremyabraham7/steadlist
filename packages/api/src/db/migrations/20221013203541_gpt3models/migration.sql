@@ -1,0 +1,14 @@
+-- CreateEnum
+CREATE TYPE "GPT3ModelStatus" AS ENUM ('QUEUED', 'PENDING', 'RUNNING', 'SUCCEEDED', 'CANCELLED');
+
+-- CreateTable
+CREATE TABLE "GPT3Model" (
+    "id" UUID NOT NULL DEFAULT gen_random_uuid(),
+    "tuneId" TEXT NOT NULL,
+    "model" TEXT,
+    "status" "GPT3ModelStatus" NOT NULL DEFAULT 'QUEUED',
+    "createdAt" TIMESTAMPTZ(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMPTZ(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "GPT3Model_pkey" PRIMARY KEY ("id")
+);

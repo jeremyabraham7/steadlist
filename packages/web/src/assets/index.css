@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.field-error {
+    @apply text-xs;
+    @apply text-red-600;
+    @apply dark:text-red-400;
+
+}
+.form-error {
+    @apply text-sm py-3 px-4 rounded-sm;
+    @apply dark:bg-red-400 dark:text-red-900;
+}
+
+
+/* EL-CASCADER COMPONENT */
+.el-cascader {
+    @apply block w-full rounded-md shadow-sm sm:text-sm;
+}
+.el-cascader:hover,
+.el-cascader:hover .el-input__wrapper {
+    border: none !important;
+    box-shadow: none !important;
+}
+.el-cascader .el-input__wrapper {
+    @apply py-2 px-3 dark:bg-slate-700 border-gray-300 dark:border-slate-700 shadow-sm focus:border-slate-600 focus:ring-slate-600/20 sm:text-sm;
+}
+.el-cascader .el-input__wrapper input {
+    @apply text-white focus:border-none focus:ring-0;
+}
+.el-cascader__dropdown {
+    border: none !important;
+}
+.el-cascader__dropdown .el-popper__arrow::before {
+    background: rgb(71 85 105 / var(--tw-bg-opacity)) !important;
+    border: none !important;
+    @apply dark:border-slate-600 dark:bg-slate-600;
+}
+.el-cascader-panel,
+.el-cascader__suggestion-panel {
+    @apply dark:bg-slate-600 text-white;
+}
+.el-cascader-menu {
+    @apply dark:border-slate-700;
+}
+.el-cascader-menu__wrap.el-scrollbar__wrap {
+    height: 304px !important;
+}
+.el-cascader-menu .el-cascader-node,
+.el-cascader__suggestion-panel .el-cascader__suggestion-item {
+    @apply dark:text-white;
+}
+.el-cascader-menu .el-cascader-node:hover,
+.el-cascader-menu .el-cascader-node.in-active-path,
+.el-cascader__suggestion-panel .el-cascader__suggestion-item:hover {
+    @apply dark:text-white dark:bg-slate-700;
+}
